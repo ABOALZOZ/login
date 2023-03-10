@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="english">
+<head> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200&display=swap" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Login</title>
+<link rel="shortcut icon" href="icon.png">
+</head>
+
+<body style="background:url(wallpaper.png); font-family: 'Lexend', sans-serif;"> 
+
+
+
+
+<div class="input" style="display: inline-block;">
+
+<p class="Login">Login</p>
+
+<br style="user-select: none;">
+
+    
+    <div class="name">
+    
+<input type="text" id="name" placeholder="Name" class="input-name" required>
+</div>
+
+<br style="user-select: none;">
+
+<div class="password">
+    
+<input type="password" id="password" placeholder="Password" class="input-password" required>
+</div>
+
+<br style="user-select: none;">
+
+<div class="email">
+    
+<input type="email" id="email" placeholder="Email" class="input-email" required>
+</div>
+
+<br style="user-select: none;">
+
+<input type="submit" id="submit" class="input-submit" title="submit">
+
+</form>
+
+</div>
+
+
+
+<style>
+
+.html,body{
+    height: 100vh;
+margin: 0px;
+padding: 0px;
+display: block;
+text-align:center;
+justify-content: center;
+}
+
+
+.body{
+display: flex;
+text-align: center;
+
+}
+
+.Login{
+margin: 0px;
+text-align: center;
+font-family: 'Lexend', sans-serif;
+user-select: none;
+font-size: 30px;
+}
+
+.input{
+    background-color: rgba(255, 255, 255, 0.11);
+    padding: 30px;
+    box-shadow: 5px;
+    border-radius: 9px;
+    margin-top: 220px;
+}
+
+
+.input-name{
+    border: none;
+    user-select: none;
+    transition: 0.5s;
+}
+
+.input-password{
+    border: none;
+    user-select: none;
+    transition: 0.5s;
+}
+
+.input-email{
+    border:none;
+    user-select: none;
+    transition: 0.5s;
+}
+
+.input-name::placeholder{
+text-align: center;
+font-family: 'Lexend', sans-serif;
+font-weight: bolder;
+}
+
+
+.input-password::placeholder{
+text-align: center;
+font-family: 'Lexend', sans-serif;
+font-weight: bolder;
+}
+
+.input-email::placeholder{
+text-align: center;
+font-family: 'Lexend', sans-serif;
+font-weight: bolder;
+}
+
+.input-submit{
+    border: none;
+    border-radius: 9px;
+    background-color: rgb(0, 255, 255);
+    font-size: 20px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 900;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.input-submit:hover{
+transform: scale(1.2);
+background-color: rgb(124, 255, 255);
+}
+
+.input-name:hover{
+    border: none;
+    border-radius: 9px;
+}
+
+.input-password:hover{
+    border: none;
+    border-radius: 9px;
+}
+
+.input-email:hover{
+    border: none;
+    border-radius: 9px;
+}
+
+.input-name:active{
+    border-radius: 9px;
+}
+
+.input-password:active{
+    border-radius: 9px;
+}
+
+.input-email:active{
+    border-radius: 9px;
+}
+
+.input-name:focus{
+    background-color: rgba(0, 0, 0, 0.295);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    outline: none;
+}
+
+.input-password:focus{
+    background-color: rgba(0, 0, 0, 0.295);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    outline: none;
+}
+
+.input-email:focus{
+    background-color: rgba(0, 0, 0, 0.295);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    outline: none;
+}
+</style>
+
+
+</body>
+
+
+
+
+</html>
